@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/zoom.css">
+    <title>楽しく学べる動物クイズ</title>
+</head>
+<body>
+
+
+    <div class="hero-wrapper child">
+        <nav id="nav">
+            <div class="nav-wrapper" id="nav-wrapper">
+                <a href="index.html"><h1>楽しく学べる動物クイズ</h1></a>
+                <ul id="nav-wrapper-ul">
+                    <li><a href="index.html"><br>HOMEへ</a></li>
+                    <li><a href="zukan.html"><br>動物図鑑を見る</a></li>
+                    <li><a href="list.html"><br>動物クイズ一覧を見る</a></li>
+                    <li><a href="randam1.html"><br>確認テスト</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="hamburger">
+            <span class="inner_line" id="line1"></span>
+            <span class="inner_line" id="line2"></span>
+            <span class="inner_line" id="line3"></span>
+        </div>
+
+        <div class="hero-img-box">
+            <div class="hero-img-text">
+                <h1><span>参照／画像</span></h1>
+            </div>
+            <img src="./photo/book.png" alt="">
+        </div>
+
+    </div>
+
+    <article>
+
+        <div class="article-aria">
+            <h2>お借りしたサイト一覧</h2>
+            <ul>
+                ・PIXTA 画像・動画の素材サイト様<a href="https://pixta.jp">『 https://pixta.jp 』</a><br>
+                ・無料の写真素材-無料画像・フリー素材のpro.foto様<a href="https://pixta.jp">『 https://pro-foto.jp 』</a><br>
+                ・ピクト缶 フリー素材・無料の写真集様<a href="https://pictkan.com">『 https://pictkan.com 』</a><br>
+                ・かわいいフリー素材集 いらすとや様<a href="https://www.irasutoya.com">『 https://www.irasutoya.com 』</a><br>
+            </ul>
+
+        </div>
+
+    </article>
+
+    <div class="contents-wrapper">
+
+        <a href="index.html">
+            <div class="box">
+                <img src="./button/homebutton.png" alt="STEP1">
+                <h2>----------------------- HOME ---------------------</h2>
+            </div>
+        </a>
+
+        <a href="zukan.html">
+            <div class="box">
+                <img src="./button/zukan.png" alt="STEP2">
+                <h2>---------------------- 動物図鑑 -------------------</h2>
+            </div>
+        </a>
+
+        <a href="list.html">
+            <div class="box">
+                <img src="./button/list.png" alt="STEP3">
+                <h2>------------------ 動物クイズ一覧 ---------------</h2>
+            </div>
+        </a>
+
+        <a href="randam1.html">
+            <div class="box">
+                <img src="./button/randam.png" alt="STEP5">
+                <h2>--------------------- 確認テスト ------------------</h2>
+            </div>
+        </a>
+
+        <a href="reference.html">
+            <div class="box">
+                <img src="./button/reference.png" alt="STEP5">
+                <h2>------------------------ 参照 ------------------------</h2>
+            </div>
+        </a>
+
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'fade',
+          loop: true,
+          speed: 2000,
+          autoplay: {
+            delay: 6000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+          },
+          zoom: {
+            maxRatio: 5,
+          },
+        });
+      </script>
+    <script src="js/hamberger.js"></script>
+</body>
+</html>

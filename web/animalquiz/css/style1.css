@@ -1,0 +1,253 @@
+/*-- ”wŒi‰æ‘œ --*/
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+    z-index: -100;
+}
+
+#body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -100;
+}
+
+#example { 
+    overflow: hidden;
+}
+
+#example2 { 
+    overflow-x: hidden;
+    overflow-y: no;
+}
+
+
+
+#menu_img {
+    position: fixed;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    left: 1%;
+    top: 10px;
+    z-index: 999;
+}
+
+.menu_comment {
+    position: absolute;    
+    left: 100px;
+    top: 3px;
+    width: 500px;
+    z-index: 2;
+}
+
+.img_home {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 190px;
+    z-index: 2;
+}
+
+.img_play {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    width: 175px;
+    z-index: 2;
+}
+
+.img_list {
+    position: absolute;
+    left: 800px;
+    top: 0px;
+    width: 175px;
+    z-index: 2;
+}
+
+.img_randam {    
+    position: absolute;
+    left: 1100px;
+    top: 0px;
+    width: 175px;
+    z-index: 2;
+}
+
+
+.img_dog {
+    position: absolute;
+    left: 300px;
+    top: 180px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_cat {
+    position: absolute;
+    left: 500px;
+    top: 180px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_rabbit {
+    position: absolute;
+    left: 700px;
+    top: 180px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_squirrel {
+    position: absolute;
+    left: 900px;
+    top: 180px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_monkey {
+    position: absolute;
+    left: 1100px;
+    top: 180px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_sheep {
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_elephant {
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_lion {
+    position: absolute;
+    left: 700px;
+    top: 350px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_giraffe {
+    position: absolute;
+    left: 900px;
+    top: 350px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_hippopotamus {
+    position: absolute;
+    left: 1100px;
+    top: 350px;
+    width: 150px;
+    z-index: 2;
+}
+
+
+.img_fox {
+    position: absolute;
+    left: 300px;
+    top: 520px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_kangaroo {
+    position: absolute;
+    left: 500px;
+    top: 520px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_horse {
+    position: absolute;
+    left: 700px;
+    top: 520px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_penguin {
+    position: absolute;
+    left: 900px;
+    top: 520px;
+    width: 150px;
+    z-index: 2;
+}
+
+.img_deer {
+    position: absolute;
+    left: 1100px;
+    top: 520px;
+    width: 150px;
+    z-index: 2;
+}
+
+
+.img_button1 {
+    position: absolute;
+    left: 350px;
+    top: 720px;
+    width: 250px;
+    z-index: 2;
+}
+
+.img_button2 {
+    position: absolute;
+    left: 650px;
+    top: 720px;
+    width: 270px;
+    z-index: 2;
+}
+
+.img_button3 {
+    position: absolute;
+    left: 950px;
+    top: 720px;
+    width: 270px;
+    z-index: 2;
+}
+
+
+.div{
+text-align: center;
+}
+
+
+.img_yes{
+    width: 500px;
+    left: 0px;
+    top: 700px;
+    z-index: 2;
+}
+
+.img_no{
+    width: 500px;
+    left: 500px;
+    top: 700px;
+    z-index: 2;
+}

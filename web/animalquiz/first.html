@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/zoom.css">
+    <title>楽しく学べる動物クイズ</title>
+</head>
+<body>
+
+
+    <div class="hero-wrapper child">
+        <nav id="nav">
+            <div class="nav-wrapper" id="nav-wrapper">
+                <a href="index.html"><h1>楽しく学べる動物クイズ</h1></a>
+                <ul id="nav-wrapper-ul">
+                    <li><a href="index.html"><br>HOMEへ</a></li>
+                    <li><a href="zukan.html"><br>動物図鑑を見る</a></li>
+                    <li><a href="list.html"><br>動物クイズ一覧を見る</a></li>
+                    <li><a href="randam1.html"><br>確認テスト</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="hamburger">
+            <span class="inner_line" id="line1"></span>
+            <span class="inner_line" id="line2"></span>
+            <span class="inner_line" id="line3"></span>
+        </div>
+
+        <div class="hero-img-box">
+            <div class="hero-img-text">
+                <h1><span>前提テスト</span></h1>
+                <p>まず初めに、チャレンジしてみよう。</p>
+            </div>
+            <img src="./photo/book.png" alt="">
+        </div>
+
+    </div>
+
+    <article>
+
+        <div class="article-aria">
+            <h2>1.哺乳類ではない動物は次のうちどれでしょうか？</h2>
+            <ul>
+                <li>ウマ</li>
+                <li>サル</li>
+                <li>ウサギ</li>
+                <li>ペンギン</li>
+            </ul>
+
+            <div class="accbox">
+            <label for="label1">答えを見る</label>
+            <input type="checkbox" id="label1" class="cssacc" />
+                <div class="accshow">
+                    <!--ここに隠す中身-->
+                    <p>
+                        <span class="bold color">答え：4のペンギン</span><br>
+                        ペンギンは、鳥綱ペンギン目に属する種の総称です。ペンギン科のみが現生します。<br>
+                        主に南半球に生息する海鳥であり、飛ぶことができません。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="article-aria">
+            <h2>2.犬の先祖は何という動物でしょうか？</h2>
+            <ul>
+                <li>トラ</li>
+                <li>オオカミ</li>
+                <li>キツネ</li>
+                <li>タヌキ</li>
+            </ul>
+
+            <div class="accbox">
+            <label for="label2">答えを見る</label>
+            <input type="checkbox" id="label2" class="cssacc" />
+                <div class="accshow">
+                    <!--ここに隠す中身-->
+                    <p>
+                        <span class="bold color">答え：2のオオカミ</span><br>
+                        オオカミは、ネコ目イヌ科イヌ属に属する哺乳動物です。<br>
+                        ジャッカルやコヨーテが祖先であるという説もあります。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="article-aria">
+            <h2>3.草食ではない動物は次のうちどれでしょうか？</h2>
+            <ul>
+                <li>ライオン</li>
+                <li>リス</li>
+                <li>キリン</li>
+                <li>カバ</li>
+            </ul>
+
+            <div class="accbox">
+            <label for="label3">答えを見る</label>
+            <input type="checkbox" id="label3" class="cssacc" />
+                <div class="accshow">
+                    <!--ここに隠す中身-->
+                    <p>
+                        <span class="bold color">答え：3のキリン</span><br>
+                        食性は植物食で、主に木の葉、若芽、小枝などを食べますが、果実や草本を食べることもあります。<br>
+                        主に薄明薄暮時に採食を行い、昼間は反芻を行います。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </article>
+
+    <div class="contents-wrapper">
+
+        <a href="index.html">
+            <div class="box">
+                <img src="./button/homebutton.png" alt="STEP1">
+                <h2>----------------------- HOME ---------------------</h2>
+            </div>
+        </a>
+
+        <a href="zukan.html">
+            <div class="box">
+                <img src="./button/zukan.png" alt="STEP2">
+                <h2>---------------------- 動物図鑑 -------------------</h2>
+            </div>
+        </a>
+
+        <a href="list.html">
+            <div class="box">
+                <img src="./button/list.png" alt="STEP3">
+                <h2>------------------ 動物クイズ一覧 ---------------</h2>
+            </div>
+        </a>
+
+        <a href="randam1.html">
+            <div class="box">
+                <img src="./button/randam.png" alt="STEP5">
+                <h2>--------------------- 確認テスト ------------------</h2>
+            </div>
+        </a>
+        
+        <a href="reference.html">
+            <div class="box">
+                <img src="./button/reference.png" alt="STEP5">
+                <h2>------------------------ 参照 ------------------------</h2>
+            </div>
+        </a>
+
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'fade',
+          loop: true,
+          speed: 2000,
+          autoplay: {
+            delay: 6000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+          },
+          zoom: {
+            maxRatio: 5,
+          },
+        });
+      </script>
+    <script src="js/hamberger.js"></script>
+</body>
+</html>

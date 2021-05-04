@@ -1,0 +1,238 @@
+<HTML>
+    <HEAD>
+        <meta charset="utf-8">
+        <TITLE>動物クイズ</TITLE>
+        <link rel="stylesheet" type="text/css" media="all" href="../css/style2.css" target="top">
+    </HEAD>
+    <BODY BGCOLOR="#8fbc8f">
+        <CENTER>
+            <TABLE BORDER=0 WIDTH="100%" BGCOLOR="#cfe6a1">
+                <TR ALIGN="center" BGCOLOR="#cfe6a1">
+                    <TD NOWRAP>
+                        <FONT SIZE=4 COLOR="#000000"><B>以下の質問に答えてね</B></FONT>
+                    </TD>
+                </TR>
+            </TABLE>
+
+            <script type="text/Javascript">
+                function saiten(){
+
+                    const a = document.querySelector("#text1");
+                    const b = document.querySelector("#text2");
+                    const c = document.querySelector("#text3");
+                    const d = document.querySelector("#text4");
+                    const e = document.querySelector("#text5");
+                    const f = document.querySelector("#text6");
+
+                    const g = document.querySelector("#answer1");
+                    const h = document.querySelector("#answer2");
+                    const i = document.querySelector("#answer3");
+                    const j = document.querySelector("#answer4");
+                    const k = document.querySelector("#answer5");
+                    const l = document.querySelector("#answer6");
+                    const m = document.querySelector("#answer7");
+                    const n = document.querySelector("#answer8");
+                    const o = document.querySelector("#answer9");
+                    const p = document.querySelector("#answer10");
+                    const q = document.querySelector("#answer11");
+                    const r = document.querySelector("#answer12");
+                    const s = document.querySelector("#answer13");
+                    const t = document.querySelector("#answer14");
+                    const u = document.querySelector("#answer15");
+                    const v = document.querySelector("#answer16");
+                    const w = document.querySelector("#answer17");
+                    const x = document.querySelector("#answer18");
+
+
+                    var point=0;
+                    var max=6;
+
+                    if(document.quiz.a[0].checked){
+                        point+=1;
+                        a.textContent = "正解です。";
+                        a.style.color = "ff0000";
+                        g.style.color = "ff0000";
+                    }
+                    else{
+                        a.textContent = "不正解です。";
+                        a.style.color = "0040FF";
+                    }
+                    if(document.quiz.b[2].checked){
+                        point+=1;
+                        b.textContent = "正解です。";
+                        b.style.color = "ff0000";
+                        l.style.color = "ff0000";
+                    }
+                    else{
+                        b.textContent = "不正解です。";
+                        b.style.color = "0040FF";
+                    }
+                    if(document.quiz.c[1].checked){
+                        point+=1;
+                        c.textContent = "正解です。";
+                        c.style.color = "ff0000";
+                        n.style.color = "ff0000";
+                    }
+                    else{
+                        c.textContent = "不正解です。";
+                        c.style.color = "0040FF";
+                    }
+                    if(document.quiz.d[0].checked){
+                        point+=1;
+                        d.textContent = "正解です。";
+                        d.style.color = "ff0000";
+                        p.style.color = "ff0000";
+                    }
+                    else{
+                        d.textContent = "不正解です。";
+                        d.style.color = "0040FF";
+                    }
+                    if(document.quiz.e[0].checked){
+                        point+=1;
+                        e.textContent = "正解です。";
+                        e.style.color = "ff0000";
+                        s.style.color = "ff0000";
+                    }
+                    else{
+                        e.textContent = "不正解です。";
+                        e.style.color = "0040FF";
+                    }
+                    if(document.quiz.f[2].checked){
+                        point+=1;
+                        f.textContent = "正解です。";
+                        f.style.color = "ff0000";
+                        x.style.color = "ff0000";
+                    }
+                    else{
+                        f.textContent = "不正解です。";
+                        f.style.color = "0040FF";
+                    }
+
+                    if(point==max){
+                        alert("全問正解です。");
+                    }
+                    else{
+                        alert(""+point+"問正解です。");
+                    }
+
+                    //document.quiz.a[0].checked=true;
+                    //document.quiz.b[2].checked=true;
+                    //document.quiz.c[1].checked=true;
+                    //document.quiz.d[0].checked=true;
+                    //document.quiz.e[0].checked=true;
+                    //document.quiz.f[2].checked=true;
+
+                }
+            </script>
+
+<FORM name="quiz">
+<TABLE BORDER=0 WIDTH="90%" BGCOLOR="#cfe6a1" CELLPADDING="10">
+<tb><p><img class="img_home" src="../photo/cat.jpg"></p></tb>
+
+<TR>
+    <TD NOWRAP VALIGN="top"><B><p id="text1">クイズ①</p></B></TD>
+<TD>次の（   ）にあてはまる言葉を選んでください。<br>
+    食肉目（　　）科（　　）属に分類される動物です。 </TD>
+</TR>
+<TR>
+<TD>
+<TD>
+    <div id = "answer1"><INPUT type=radio name="a">ネコ</INPUT></div>
+    <div id = "answer2"><INPUT type=radio name="a">イヌ</INPUT></div>
+    <div id = "answer3"><INPUT type=radio name="a">ライオン</INPUT></div>
+</TD>
+</TD>
+</TR>
+
+<TR>
+    <TD NOWRAP VALIGN="top"><B><p id="text2">クイズ②</p></B></TD>
+
+<TD>次の（   ）にあてはまる言葉を選んでください。<br>
+    （　　）を前後に移動することができるため、狭い場所でも通ることができます。</TD>
+</TR>
+<TR>
+<TD>
+<TD>
+    <div id = "answer4"><INPUT type=radio name="b">筋肉</INPUT></div>
+    <div id = "answer5"><INPUT type=radio name="b">骨</INPUT></div>
+    <div id = "answer6"><INPUT type=radio name="b">内蔵</INPUT></div>
+</TD>
+</TD>
+</TR>
+<TR>
+    <TD NOWRAP VALIGN="top"><B><p id="text3">クイズ③</p></B></TD>
+<TD>次の（   ）にあてはまる言葉を選んでください。<br>
+    顔の大きさの割に（　　）が大きく、これがネコを可愛いと思わせる一因にもなっています。</TD>
+</TR>
+<TR>
+<TD>
+<TD>
+    <div id = "answer7"><INPUT type=radio name="c">耳</INPUT></div>
+    <div id = "answer8"><INPUT type=radio name="c">眼</INPUT></div>
+    <div id = "answer9"><INPUT type=radio name="c">鼻</INPUT></div>
+</TD>
+</TD>
+</TR>
+<TR>
+    <TD NOWRAP VALIGN="top"><B><p id="text4">クイズ④</p></B></TD>
+<TD>次の（   ）にあてはまる言葉を選んでください。<br>
+    メスの妊娠期間は（　　）日程度で、年3~4回の出産が可能です。</TD>
+</TR>
+<TR>
+<TD>
+<TD>
+    <div id = "answer10"><INPUT type=radio name="d">65</INPUT></div>
+    <div id = "answer11"><INPUT type=radio name="d">35</INPUT></div>
+    <div id = "answer12"><INPUT type=radio name="d">80</INPUT></div>
+</TD>
+</TD>
+</TR>
+<TR>
+    <TD NOWRAP VALIGN="top"><B><p id="text5">クイズ⑤</p></B></TD>
+<TD>次の（   ）にあてはまる言葉を選んでください。<br>
+    （　　）は哺乳類の中でもトップクラスで、簡単な言葉を理解できるようになる個体もいます。</TD>
+</TR>
+<TR>
+<TD>
+<TD>
+    <div id = "answer13"><INPUT type=radio name="e">知能</INPUT></div>
+    <div id = "answer14"><INPUT type=radio name="e">聴覚</INPUT></div>
+    <div id = "answer15"><INPUT type=radio name="e">触覚</INPUT></div>
+</TD>
+</TD>
+</TR>
+<TR>
+    <TD NOWRAP VALIGN="top"><B><p id="text6">クイズ⑥</p></B></TD>
+<TD>次の（   ）にあてはまる言葉を選んでください。<br>
+    非常に優れた（　　）を持ち、柔軟性と瞬発力が極めて高い構造をしています。</TD>
+</TR>
+<TR>
+<TD>
+<TD>
+    <div id = "answer16"><INPUT type=radio name="f">適応能力</INPUT></div>
+    <div id = "answer17"><INPUT type=radio name="f">潜在能力</INPUT></div>
+    <div id = "answer18"><INPUT type=radio name="f">平衡感覚</INPUT></div>
+<br>
+<br>
+<input type=button value=" 採点 " onClick="saiten()">
+<input type=reset value=" リセット ">
+</TD>
+</TD>
+</TR>
+<table>
+<div align="center">
+<div class="menu_img">
+<tr>
+    <tb><p><a href="../index.html" target="top"><img class="img_button8" src="../button/home.png"></a></p></tb>
+    <tb><p><a href="../kaisetsu/catk.html" target="top"><img class="img_button9" src="../button/kaisetsu.png"></a></p></tb>
+    <tb><p><a href="../zukan/catz.html" target="top"><img class="img_button10" src="../button/zukankai.png"></a></p></tb>
+    <tb><p><a href="../list.html" target="top"><img class="img_button11" src="../button/back.png"></a></p></tb>
+</tr>
+</div>
+</div>
+</table>
+</TABLE>
+</FORM>
+</CENTER>
+</BODY>
+</HTML>

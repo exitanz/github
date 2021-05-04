@@ -1,0 +1,174 @@
+#menu_img {
+    position: fixed;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    left: 1%;
+    top: 10px;
+    z-index: 999;
+}
+
+.menu_comment {
+    position: absolute;    
+    left: 100px;
+    top: 3px;
+    width: 500px;
+    z-index: 2;
+}
+
+.img_button4 {
+    position: absolute;
+    left: 200px;
+    top: 620px;
+    width: 250px;
+    z-index: 2;
+}
+
+.img_button5 {
+    position: absolute;
+    left: 500px;
+    top: 620px;
+    width: 270px;
+    z-index: 2;
+}
+
+.img_button6 {
+    position: absolute;
+    left: 800px;
+    top: 620px;
+    width: 270px;
+    z-index: 2;
+}
+
+.img_button7 {
+    position: absolute;
+    left: 1100px;
+    top: 620px;
+    width: 270px;
+    z-index: 2;
+}
+
+.img_button8 {
+    position: absolute;
+    left: 50px;
+    top: 1500px;
+    width: 200px;
+    z-index: 2;
+}
+
+.img_button9 {
+    position: absolute;
+    left: 310px;
+    top: 1500px;
+    width: 220px;
+    z-index: 2;
+}
+
+.img_button10 {
+    position: absolute;
+    left: 600px;
+    top: 1502px;
+    width: 220px;
+    z-index: 2;
+}
+
+.img_button11 {
+    position: absolute;
+    left: 870px;
+    top: 1500px;
+    width: 220px;
+    z-index: 2;
+}
+
+.img_button8_z {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    width: 200px;
+    z-index: 2;
+}
+
+.img_button9_z {
+    position: absolute;
+    left: 410px;
+    top: 60px;
+    width: 220px;
+    z-index: 2;
+}
+
+.img_button10_z {
+    position: absolute;
+    left: 700px;
+    top: 62px;
+    width: 210px;
+    z-index: 2;
+}
+
+.img_button11_z {
+    position: absolute;
+    left: 970px;
+    top: 60px;
+    width: 220px;
+    z-index: 2;
+}
+
+.img_button8_r {
+    position: absolute;
+    left: 200px;
+    top: 720px;
+    width: 200px;
+    z-index: 2;
+}
+
+.img_button9_r {
+    position: absolute;
+    left: 450px;
+    top: 720px;
+    width: 220px;
+    z-index: 2;
+}
+
+.img_button10_r {
+    position: absolute;
+    left: 702px;
+    top: 722px;
+    width: 220px;
+    z-index: 2;
+}
+
+
+.img_home{
+    width: 500px;
+    z-index: 2;
+}
+
+.img_kigou{
+    width: 30px;
+    z-index: 2;
+}
+
+.img_gazou{
+    width: 200px;
+    z-index: 2;
+}
+
+.img_gazou2{
+    width: 250px;
+    z-index: 2;
+}
+
+.img_yes{
+    position: absolute;
+    width: 500px;
+    left: 80px;
+    top: 400px;
+    z-index: 2;
+}
+
+.img_no{
+    position: absolute;
+    width: 500px;
+    left: 600px;
+    top: 400px;
+    z-index: 2;
+}

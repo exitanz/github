@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>楽しく学べる動物クイズ</title>
+</head>
+<body>
+
+
+    <div class="hero-wrapper">
+        <nav id="nav">
+            <div class="nav-wrapper" id="nav-wrapper">
+                <a href="index.html"><h1>楽しく学べる動物クイズ</h1></a>
+                <ul id="nav-wrapper-ul">
+                    <li><a href="index.html"><br>HOMEへ</a></li>
+                    <li><a href="zukan.html"><br>動物図鑑を見る</a></li>
+                    <li><a href="list.html"><br>動物クイズ一覧を見る</a></li>
+                    <li><a href="randam1.html"><br>確認テスト</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="hamburger">
+            <span class="inner_line" id="line1"></span>
+            <span class="inner_line" id="line2"></span>
+            <span class="inner_line" id="line3"></span>
+        </div>
+        <div class="hero-container">
+            <h1>動物を楽しく学ぼう！</h1>
+            <p>自然環境で生き、時には人間の側に寄り添う様々な動物たち。<br>
+                そんな動物たちのことを学ぶ機会はあまりありません。<br>このサイトで学び、動物たちへの理解と交友を深めましょう！
+            </p>
+            <button onclick="location.href='first.html'">前提テストにすすむ</button>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url(photo/dog.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(photo/cat.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(photo/rabbit.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(photo/squirrel.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(photo/monkey.jpg);"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-white"></div>
+        </div>
+    </div>
+
+    <div class="contents-wrapper">
+
+        <a href="index.html">
+            <div class="box">
+                <img src="./button/homebutton.png" alt="STEP1">
+                <h2>----------------------- HOME ---------------------</h2>
+            </div>
+        </a>
+
+        <a href="zukan.html">
+            <div class="box">
+                <img src="./button/zukan.png" alt="STEP2">
+                <h2>---------------------- 動物図鑑 -------------------</h2>
+            </div>
+        </a>
+
+        <a href="list.html">
+            <div class="box">
+                <img src="./button/list.png" alt="STEP3">
+                <h2>------------------ 動物クイズ一覧 ---------------</h2>
+            </div>
+        </a>
+
+        <a href="randam1.html">
+            <div class="box">
+                <img src="./button/randam.png" alt="STEP5">
+                <h2>--------------------- 確認テスト ------------------</h2>
+            </div>
+        </a>
+
+        <a href="reference.html">
+            <div class="box">
+                <img src="./button/reference.png" alt="STEP5">
+                <h2>------------------------ 参照 ------------------------</h2>
+            </div>
+        </a>
+
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'fade',
+          loop: true,
+          speed: 2000,
+          autoplay: {
+            delay: 6000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+          },
+          zoom: {
+            maxRatio: 5,
+          },
+        });
+      </script>
+    <script src="js/hamberger.js"></script>
+</body>
+</html>
